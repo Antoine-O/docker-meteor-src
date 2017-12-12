@@ -45,8 +45,8 @@ RUN apk  update && \
     apk --no-cache add git && \
     apk --no-cache add curl && \
     apk --no-cache add libcap && \
-    apk --no-cache add nodejs=8.9.1-r0 && \
-    apk --no-cache add nodejs-npm=8.9.1-r0 && \
+    apk --no-cache add nodejs && \
+    apk --no-cache add nodejs-npm && \
     cd ~ && \
     export PHANTOM_JS="phantomjs-2.1.1-linux-x86_64" && \
     wget https://bitbucket.org/ariya/phantomjs/downloads/$PHANTOM_JS.tar.bz2 && \
